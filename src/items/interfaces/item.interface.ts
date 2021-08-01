@@ -1,6 +1,5 @@
-export interface ItemInterface{
-    id?: string;
-    name:string;
-    description?:string;
-    qty:number;
+export interface Item{
+    name: String,
+    qty: Number,
+    description: String,
 }
